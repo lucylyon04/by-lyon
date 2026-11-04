@@ -525,3 +525,15 @@ footer p {
 .covers-section img:hover {
     transform: scale(1.03);
 }
+.project-card img {
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.project-card img:hover {
+    transform: scale(1.03);
+}
