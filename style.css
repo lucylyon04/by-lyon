@@ -513,3 +513,15 @@ footer p {
         gap: 12px;
     }
 }
+.covers-section img {
+    width: 100%;
+    max-width: 650px;
+    border-radius: 18px;
+    display: block;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+}
+
+.covers-section img:hover {
+    transform: scale(1.03);
+}
